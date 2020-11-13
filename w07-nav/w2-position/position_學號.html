@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/position_學號.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="card1">
+      <h3>範例一 Static</h3>
+      <p>Box1不可透過任何屬性改變位置</p>
+      <div class="box-origin">
+        <div class="box1"><h4>Box1</h4></div>
+      </div>
+    </div>
+    <div class="card2">
+      <h3>範例二 Absolute</h3>
+      <p>
+        Box2以「基準元素」為起點，可以自由指定配置位置，沒有指定基準元素的話，預設是以
+        body 元素(整個視窗)為基準
+      </p>
+      <div class="box-origin">
+        <div class="box2"><h4>Box2</h4></div>
+      </div>
+    </div>
+    <div class="card1">
+      <h3>範例三 Relative</h3>
+      <p>Box3以自己原本顯示的位置為基準位置</p>
+      <div class="box-origin">
+        <div class="box3"><h4>Box3</h4></div>
+      </div>
+    </div>
+    <div class="card1">
+      <h3>範例四 Relative+Absolute</h3>
+      <p>Box4以父元素為基準位置</p>
+      <div class="box4-origin">
+        <div class="box4"><h4>Box4</h4></div>
+      </div>
+    </div>
+    <div class="card1">
+      <h3>範例五 Fixed</h3>
+      <p>
+        Box5以整個視窗( body
+        元素)為基準，就算拉動捲軸，區塊仍然會顯示在同一個位置
+      </p>
+      <div class="box-origin">
+        <div class="box5"><h4>Box5</h4></div>
+      </div>
+    </div>
+  </body>
+</html>

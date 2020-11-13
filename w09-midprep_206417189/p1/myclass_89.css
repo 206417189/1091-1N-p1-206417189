@@ -1,0 +1,33 @@
+.tb {
+  border: 1px solid;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  font-family: Microsoft JhengHei;
+}
+.name1 {
+  background-color: darkslateblue;
+  color: white;
+}
+.title1 {
+  background-color: darkblue;
+  color: white;
+}
+.week {
+  background-color: aqua;
+}
+.num1 {
+  background-color: darksalmon;
+}
+.time1 {
+  background-color: rgb(192, 101, 89, 0.4);
+}
+.clas1 {
+  background-color: rgb(23, 155, 54, 0.5);
+}
+.con1 {
+  background-color: darkorchid;
+}
+.gra1 {
+  background-color: rgb(105, 105, 105, 0.4);
+}

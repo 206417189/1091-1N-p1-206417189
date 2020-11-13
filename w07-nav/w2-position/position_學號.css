@@ -1,0 +1,103 @@
+* {
+  font-family: "Microsoft JhengHei";
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.card1 {
+  width: 300px;
+  height: 180px;
+  /* border: solid 2px black; */
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+  margin: 50px;
+}
+
+.card2 {
+  width: 300px;
+  height: 200px;
+  /* border: solid 2px black; */
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+  margin: 50px;
+}
+
+.box1 {
+  /* left: 100px;
+  top: 100px; */
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 103, 103);
+}
+
+.box2 {
+  left: 80%;
+  top: 10%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 103, 103);
+}
+
+.box3 {
+  left: 60px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 103, 103);
+}
+
+.box4-origin {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: rgb(236, 103, 103) dotted 3px;
+  margin-top: 10px;
+}
+
+.box4 {
+  left: 60px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 103, 103);
+}
+
+.box5 {
+  left: 80%;
+  top: 77%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(236, 103, 103);
+}
+
+.box-origin {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: rgb(236, 103, 103) dotted 3px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+p {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
