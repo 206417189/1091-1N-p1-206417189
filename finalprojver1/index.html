@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>finalproject206417189</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">DUCK</a>
+
+      <i class="bx bx-menu header__toggle" id="header-toggle"></i>
+
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+          <a href="" class="nav__perfil">
+            <div class="nav__img">
+              <img src="./assets/duck.png" alt="" />
+            </div>
+
+            <div>
+              <span class="nav__name">206417189</span>
+              <span class="nav__name">WU SHOW-LUN</span>
+            </div>
+          </a>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+            
+
+              <li class="nav__item dropdown">
+                <a href="#" class="nav__link dropdown__link"
+                  >Product <i class="bx bx-chevron-down dropdown__icon"></i
+                ></a>
+
+                <ul class="dropdown__menu">
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">kids</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">purse</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">mens</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">womens</a>
+                  </li>
+                </ul>
+              </li>
+
+              
+
+              
+
+
+              <li class="nav__item dropdown">
+                <a href="#" class="nav__link dropdown__link"
+                  >TKU demo <i class="bx bx-chevron-down dropdown__icon"></i
+                ></a>
+
+                <ul class="dropdown__menu">
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">Crown Clothing</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">Devconnector</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="nav__link">Responsive_MQ</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+              <div class="nav__item">
+                <div class="options">
+                  <div class="cart-icon" onclick="cartToggle()">
+                    <img src="./assets/shopping-bag.svg" alt="" class="shopping-icon">
+                  </div>
+                  <div class="cart-dropdown">
+                  <div class="cart-items">
+                    <div class="cart-item">
+                      <img src="./assets/duck.png" alt="item">
+                      <div class="item-details">
+                        <span class="name">yellow duck</span>
+                        <span class="price">4 * $35</span>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="custom-button"><a href="/" class="">GO TO CHECKOUT</a></button>
+                </div>
+                </div>
+     
+                
+                
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="homepage">
+      <div class="directory-menu">
+          <div class="menu-item">
+              <img src="./assets/kid.jpg" alt="" class="background-image">
+              <a href="./hats.html" class="content">
+                  <h1 class="title">KIDS</h1>
+                  <span class="subtitle">SHOP NOW</span>
+              </a>
+          </div>
+          <div class="menu-item">
+              <img src="./assets/purse.png" alt="" class="background-image">
+              <a href="./jackets.html" class="content">
+                  <h1 class="title">PURSES</h1>
+                  <span class="subtitle">SHOP NOW</span>
+              </a>
+          </div>
+          <!-- <div class="menu-item">
+              <img src="https://i.ibb.co/0jqHpnp/sneakers.png" alt="" class="background-image">
+              <a href="./sneakers.html" class="content">
+                  <h1 class="title">SNEAKERS</h1>
+                  <span class="subtitle">SHOP NOW</span>
+              </a>
+          </div> -->
+          <div class="menu-item">
+              <img src="./assets/women.jpg" alt="" class="background-image">
+              <a href="./mens.html" class="content">
+                  <h1 class="title">MENS</h1>
+                  <span class="subtitle">SHOP NOW</span>
+              </a>
+          </div>
+          <div class="menu-item">
+              <img src="./assets/men.jpg" alt="" class="background-image">
+              <a href="./womens.html" class="content">
+                  <h1 class="title">WOMENS</h1>
+                  <span class="subtitle">SHOP NOW</span>
+              </a>
+          </div>
+          
+      </div>
+  </div>
+
+
+    <!--===== MAIN JS =====-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
